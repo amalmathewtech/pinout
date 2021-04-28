@@ -3,8 +3,6 @@ GPIOA = 'GPIOA'
 GPIOB = 'GPIOB'
 GPIOC = 'GPIOC'
 
-
-
 # GPIO/FGPIO register bits assignment
 MKE04Z_GPIOA = {
     0:  ('PTA0'),  1:  ('PTA1'),
@@ -63,16 +61,16 @@ MKE04Z_GPIOC = {
     30: ('Reserved'),  31: ('Reserved'),
     }
 
+
 def show(GPIO_n):
     if GPIO_n == 'GPIOA':
-       prefix = 'A'
-       MKE04Z_GPIO_n = MKE04Z_GPIOA
+        prefix = 'A'
+        MKE04Z_GPIO_n = MKE04Z_GPIOA
     if GPIO_n == 'GPIOB':
-       prefix = 'B'
-       MKE04Z_GPIO_n = MKE04Z_GPIOB
+        prefix = 'B'
+        MKE04Z_GPIO_n = MKE04Z_GPIOB
     if GPIO_n == 'GPIOC':
-       prefix = 'C'
-       MKE04Z_GPIO_n = MKE04Z_GPIOC 
+        prefix = 'C'
+        MKE04Z_GPIO_n = MKE04Z_GPIOC
     for i in range(32):
-        print(prefix+str(i)  ,MKE04Z_GPIO_n[i])
-
+        print(prefix+str(i), MKE04Z_GPIO_n[i])
