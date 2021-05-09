@@ -2,7 +2,7 @@
 
 A utility for querying Microcontrollers GPIO pin-out information.
 
-![pinouts](images/pinout.png)
+
 
 ## Install
 
