@@ -7,7 +7,7 @@ Development:
 ------------
 
 
-- [Amal Mathew](amal@tinkererway.com) 
+- [Amal Mathew](https://www.tinkererway.com) 
 
 
 Contributors
